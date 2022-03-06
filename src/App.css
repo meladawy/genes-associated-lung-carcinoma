@@ -1,38 +1,25 @@
-.App {
+/* General Styling Overrides */
+.expanding-table tr.info-row td:first-child {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #3489ca;
   color: white;
+  position: relative;
+  transition: all 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.expanding-table tr.info-row td:first-child:hover {
+  opacity: .8;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.expanding-table tr.info-row td:first-child span {
+  cursor: pointer;
+  padding-left: 0rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
 }
