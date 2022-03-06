@@ -1,8 +1,6 @@
 ### Clone and Install the project with a single command
-##### `git clone git@github.com:meladawy/genes-associated-lung-carcinoma.git && cd ./genes-associated-lung-carcinoma && npm install && npm start`
+`git clone git@github.com:meladawy/genes-associated-lung-carcinoma.git && cd ./genes-associated-lung-carcinoma && npm install && npm start`
 
-
-#
 #
 
 ### Or you need to execute the commands separately
